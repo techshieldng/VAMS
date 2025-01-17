@@ -1,0 +1,60 @@
+name: visitor_pass
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.6+11
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  http: ^1.2.2
+  shared_preferences: ^2.0.12
+  cached_network_image: ^3.3.0
+  email_validator: ^3.0.0
+  shimmer: ^3.0.0
+  file_picker: ^8.1.2
+  get_storage: ^2.0.3
+  flag: ^7.0.0
+  url_launcher:
+  intl:
+  image_picker:
+  path:
+  rflutter_alert: ^2.0.7
+  date_time_picker: ^2.1.0
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.3
+  firebase_analytics: ^11.3.3
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.2.9
+  flutter_svg: any
+  intl_phone_field: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  android: "launcher_icon"
+  iso: true
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+flutter_native_splash:
+  color: "#002793"
+  image: assets/images/icon.png
+  android: true
+  ios: false
